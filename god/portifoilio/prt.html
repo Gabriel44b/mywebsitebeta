@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ghost.cod</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="/god/Home/img/startuplog.png" alt=""></a>
+
+        <nav>
+            <a href="/god/Home/index.html"> Home</a>
+            <a href="prt.html" class="active"  >Portfolio</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Certificados</a>
+            <a href="#" >Experiencia</a>
+            <a href="#" >Contato</a>
+        </nav>
+    </header>
+    
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+
+        
+        
+       <!-- Galeria de imagens -->
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300" alt="Imagem 1" class="popup-trigger" data-index="0">
+        <img src="https://via.placeholder.com/300/ff0000" alt="Imagem 2" class="popup-trigger" data-index="1">
+        <img src="https://via.placeholder.com/300/00ff00" alt="Imagem 3" class="popup-trigger" data-index="2">
+        <img src="https://via.placeholder.com/300/0000ff" alt="Imagem 4" class="popup-trigger" data-index="3">
+    </div>
+
+    <!-- Popup com carrossel -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <div class="carousel">
+                <button class="carousel-btn prev" id="prev-btn">&lt;</button>
+                <div class="carousel-images" id="carousel-images">
+                    <img src="https://via.placeholder.com/500" alt="Imagem 1">
+                    <img src="https://via.placeholder.com/500/ff0000" alt="Imagem 2">
+                    <img src="https://via.placeholder.com/500/00ff00" alt="Imagem 3">
+                    <img src="https://via.placeholder.com/500/0000ff" alt="Imagem 4">
+                </div>
+                <button class="carousel-btn next" id="next-btn">&gt;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
